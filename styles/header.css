@@ -2,11 +2,11 @@
        background-image: url("../static/images/Header_background.jpg");
        background-size: cover;
        background-repeat: no-repeat;
-       height: 565px;
+       min-height: 565px;
        padding: 20px;
    }
    
-   .logo-menu {
+   .logo-nav {
        display: flex;
        padding-top: 40px;
    }
@@ -27,44 +27,32 @@
        width: 1020px;
    }
    
-   .logo__text {
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   .logo-text {
+       font-family: 'LucidaSans';
        font-style: italic;
        color: white;
        font-size: 41px;
+       height: 2em;
+       line-height: 2em;
+       text-transform: uppercase;
    }
    
-   .content__main-nav {
+   .nav {
+       margin-top: 20px;
        box-shadow: -4px -4px rgba(128, 111, 36, 2.5), -8px -8px rgba(151, 131, 22, 0.5);
        display: flex;
        margin-left: auto;
-       width: 455px;
+       width: auto;
        height: 40px;
        background-color: #f5c506;
    }
    
-   .main-nav__element {
+   .menu__item {
+       border: 1px rgba(128, 111, 36, 2.5) solid;
+   }
+   
+   .nav-menu {
        display: flex;
-       flex-direction: row;
-       border: #b99403 1px;
-       align-items: center;
-       justify-content: center;
-       height: 100%;
-       width: 32%;
-   }
-   
-   .main-nav__element p {
-       display: table-cell;
-       vertical-align: middle;
-       text-align: center;
-       font-weight: bold;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-       font-size: 17px;
-       color: #b99403;
-   }
-   
-   .element__text-about::before {
-       background-image: url("../static/images/User.png");
    }
    
    .main-nav__element p:hover {
@@ -81,17 +69,44 @@
        cursor: pointer;
    }
    
-   .slogan__first-line {
+   .nav__item {
+       margin-left: 10px;
+       font-family: 'SegoeWp';
+       font-size: 15px;
+       text-transform: uppercase;
+       text-align: center;
+   }
+   
+   A:link {
+       text-decoration: none;
+   }
+   
+   A:visited {
+       text-decoration: none;
+   }
+   
+   A:active {
+       text-decoration: none;
+   }
+   
+   A:hover {
+       text-decoration: none;
+       color: white;
+   }
+   
+   .slogan__title {
+       text-transform: uppercase;
        color: #f5c506;
        text-align: center;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Asap';
        font-size: 63px;
        display: block;
    }
    
-   .slogan__second-line {
+   .slogan__subtitle {
+       text-transform: uppercase;
        text-align: center;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Asap';
        color: white;
        font-size: 63px;
        display: block;
@@ -99,19 +114,21 @@
    
    .banner__slogan {
        text-align: center;
-       padding-left: 100px;
+       padding: 50px 0 0 100px;
    }
    
    .subtext {
-       font-size: 11px;
+       font-family: 'LaoUI';
+       font-size: 13px;
+       text-transform: uppercase;
    }
    
    @media (max-width: 420px) {
        .header {
-           height: 100%;
+           min-height: auto;
            padding: 0%;
        }
-       .header__content {
+       .container {
            width: 100%;
            height: auto;
        }
@@ -121,17 +138,17 @@
            margin: 0%;
            width: auto;
        }
-       .content__slogan {
+       .banner__slogan {
            display: none;
        }
-       .logo-img {
+       .logo-image {
            display: none;
        }
        .logo-menu {
            background-color: #5b5b5b;
            padding: 0%;
        }
-       .logo__text {
+       .logo-text {
            font-size: 14px;
        }
        .subtext {
@@ -145,17 +162,17 @@
        .main-nav__element p {
            font-size: 13px;
        }
-       .video-slogan {
+       .banner__slogan {
            padding: 0%;
        }
    }
    
    @media(min-width: 420px)AND ( max-width: 770px) {
        .header {
-           height: 100%;
+           min-height: auto;
            padding: 0%;
        }
-       .header__content {
+       .container {
            width: 100%;
            height: auto;
        }
@@ -165,17 +182,17 @@
            margin: 0%;
            width: auto;
        }
-       .content__slogan {
+       .banner__slogan {
            display: none;
        }
-       .logo-img {
+       .logo-image {
            display: none;
        }
        .logo-menu {
            background-color: #5b5b5b;
            padding: 0%;
        }
-       .logo__text {
+       .logo-text {
            font-size: 16px;
        }
        .subtext {
@@ -197,8 +214,8 @@
        }
    }
    
-   @media(min-width: 1000px)AND ( max-width: 1025px) {
-       .header__content {
+   @media(min-width: 770px)AND ( max-width: 1025px) {
+       .container {
            width: auto;
        }
    }

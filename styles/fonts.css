@@ -32,3 +32,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'LaoUI';
+    src: url('../styles/fonts/LaoUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
