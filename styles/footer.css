@@ -1,14 +1,12 @@
 .footer {
     background-color: #4c4c4c;
-    height: 65px;
-    padding: -15px;
+    height: auto;
 }
 
 .footer__content {
     border-top: thin black;
     align-content: center;
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -21,7 +19,7 @@
     align-content: center;
     margin-top: auto;
     margin-bottom: auto;
-    background-image: url(../images/logo2.png), url(../images/logo.png);
+    background-image: url(../static/images/logo2.png), url(../static/images/logo.png);
     height: 50px;
     width: 50px;
     background-size: 100%;

@@ -1,5 +1,5 @@
 .list_block {
-    background-image: url("../images/list_block_background.png");
+    background-image: url("../static/images/list_block_background.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 495px;
@@ -47,7 +47,6 @@
     margin-top: 30px;
     width: 100%;
     display: flex;
-    flex-direction: row;
     align-content: space-around;
     align-items: center;
     justify-content: space-between;
@@ -55,7 +54,6 @@
 
 .pictures_list {
     display: flex;
-    flex-direction: row;
 }
 
 ul li {
@@ -81,7 +79,6 @@ ul li::before {
     width: 90%;
     height: auto;
     display: flex;
-    flex-direction: row;
     align-content: space-between;
     align-items: center;
 }
@@ -137,7 +134,7 @@ ul li::before {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
     .list_Block_content {
         width: 100%;
     }
