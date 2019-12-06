@@ -33,6 +33,8 @@
     width: 100px;
     align-self: flex-start;
     position: absolute;
+    top: 0;
+    left: 0;
     font-family: 'PTSans';
 }
 
@@ -49,12 +51,16 @@
     display: flex;
 }
 
+.devices_list ul {
+    margin: auto;
+}
+
 .devices_list ul li {
-    margin: 5px;
+    margin: 10px;
     list-style-type: none;
     color: #a9a9a7;
     font-size: 22px;
-    font-family: "OpenSans";
+    font-family: 'Open Sans', sans-serif;
     hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
@@ -73,7 +79,16 @@
     display: flex;
 }
 
-@media(min-width: 500px)AND ( max-width: 770px) {
+.desktop {
+    position: relative;
+}
+
+.desktop img {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+@media( max-width: 770px) {
     .devices_list ul {
         display: none;
     }
@@ -83,19 +98,18 @@
     .devices_list {
         margin: auto;
     }
+    .images {
+        width: 100%;
+    }
     .desktop {
         width: 60%;
-        height: 0;
         padding-top: 50%;
         position: relative;
-        display: block;
     }
     .tablet {
         width: 30%;
-        height: 0;
         padding-top: 30%;
         position: relative;
-        display: block;
     }
     .desktop img {
         position: absolute;
@@ -104,6 +118,7 @@
         transform: translate(-50%, -50%);
         max-height: 100%;
         max-width: 100%;
+        margin: 0px;
     }
     .tablet img {
         position: absolute;
@@ -112,54 +127,64 @@
         transform: translate(-50%, -50%);
         max-height: 100%;
         max-width: 100%;
+        margin: 0px;
     }
     .free {
         padding: 0px;
-        margin-left: 20px;
-        margin-top: 40px;
+    }
+    .devices {
+        margin: 0px;
+        justify-content: unset;
     }
 }
 
 @media (max-width: 500px) {
+    .devices_block {
+        min-height: 250px;
+    }
     .title {
         font-size: 19px;
     }
     .devices_list ul {
         display: none;
     }
+    .devices {
+        margin: 0px;
+    }
     .desktop {
         width: 60%;
-        height: 0;
         padding-top: 50%;
-        position: relative;
-        display: block;
     }
     .tablet {
         width: 30%;
-        height: 0;
         padding-top: 30%;
         position: relative;
-        display: block;
     }
     .desktop img {
+        margin-left: 35px;
+        margin-top: 35px;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-60%, -60%);
         max-height: 100%;
         max-width: 100%;
     }
     .tablet img {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 60%;
+        left: 60%;
         transform: translate(-50%, -50%);
         max-height: 100%;
         max-width: 100%;
     }
     .free {
         padding: 0px;
-        height: 80px;
-        width: 80px;
+        top: 0;
+        left: 0;
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        margin: 0px;
     }
 }

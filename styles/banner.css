@@ -23,7 +23,8 @@
 
 .banner__slogan {
     text-align: center;
-    padding: 50px 0 0 100px;
+    padding: 50px 0 0 0;
+    width: 100%;
 }
 
 @media(max-width: 500px) {

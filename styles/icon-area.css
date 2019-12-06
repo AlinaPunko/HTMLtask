@@ -10,6 +10,12 @@
     margin: auto;
 }
 
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
 .icon__item {
     height: 215px;
     display: flex;
@@ -34,7 +40,6 @@
 
 @media (max-width: 420px) {
     .icon__item {
-        /* height: 100%; */
         width: 30%;
         display: flex;
         flex-direction: column;
@@ -55,7 +60,6 @@
 
 @media (max-width: 770px) {
     .icon__item {
-        /* height: 100%; */
         width: 30%;
         display: flex;
         flex-direction: column;
@@ -63,16 +67,7 @@
         align-items: center;
         padding: 5px;
     }
-    /* .icon_area__content {
-        width: 100%
-    } */
     .item__text {
         font-size: 20px;
     }
-}
-
-@media(min-width: 1000px)AND ( max-width: 1025px) {
-    /* .icon_area__content {
-        width: auto;
-    } */
 }
