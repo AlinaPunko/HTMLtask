@@ -1,0 +1,146 @@
+.logo-nav {
+    display: flex;
+    padding-top: 40px;
+}
+
+.logo-image {
+    float: left;
+    height: 83px;
+    width: 83px;
+    background-size: 100%;
+    background-image: url(../static/images/logo2.png), url(../static/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-text {
+    font-family: 'LucidaSans';
+    font-style: italic;
+    color: white;
+    font-size: 41px;
+    height: 2em;
+    line-height: 2em;
+    text-transform: uppercase;
+}
+
+.subtext {
+    font-family: 'LaoUI';
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.content__logo:hover {
+    cursor: pointer;
+}
+
+.nav {
+    margin-top: 20px;
+    box-shadow: -4px -4px rgba(128, 111, 36, 2.5), -8px -8px rgba(151, 131, 22, 0.5);
+    display: flex;
+    margin-left: auto;
+    width: auto;
+    height: 40px;
+    background-color: #f5c506;
+    box-sizing: border-box;
+}
+
+.nav__item {
+    color: #9b7d08;
+    margin-left: 10px;
+    font-family: 'SegoeWp';
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.menu__item {
+    padding: 0.5em;
+    border: rgba(151, 131, 22, 0.5) 1px solid;
+}
+
+@media(max-width: 500px) {
+    .logo-nav {
+        background-color: #5b5b5b;
+        padding: 0;
+    }
+    .nav {
+        box-shadow: none;
+        width: max-content;
+        margin: 0px auto;
+        width: 100%;
+    }
+    .nav__item {
+        margin: 0px;
+        font-size: 11px;
+    }
+    .nav__icon {
+        height: 13px;
+        width: 13px;
+    }
+    .logo-image {
+        display: none;
+    }
+    .logo-menu {
+        background-color: #5b5b5b;
+        padding: 0%;
+    }
+    .logo-text {
+        font-size: 14px;
+        padding: 1em;
+    }
+    .subtext {
+        display: none;
+    }
+    .content__logo {
+        width: auto;
+    }
+    .menu__item {
+        width: 100%;
+        padding: 0.75em 0;
+        text-align: center;
+    }
+    .nav-menu {
+        width: 100%;
+    }
+}
+
+@media(min-width: 500px)AND ( max-width: 770px) {
+    .header {
+        min-height: auto;
+        padding: 0%;
+    }
+    .container {
+        width: 100%;
+        height: auto;
+    }
+    .banner__slogan {
+        display: none;
+    }
+    .logo-image {
+        display: none;
+    }
+    .logo-menu {
+        background-color: #5b5b5b;
+        padding: 0%;
+    }
+    .nav__icon {
+        height: 13px;
+        width: 13px;
+    }
+    .subtext {
+        display: none;
+    }
+    .menu__item {
+        padding: 0.75em 0.5em;
+    }
+}
+
+@media (min-width: 770px) AND (max-width: 1020px) {
+    .subtext {
+        display: none;
+    }
+}

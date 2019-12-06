@@ -1,7 +1,6 @@
 .icon_area {
     margin: auto;
     height: 215px;
-    /* width: 1020px; */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -11,8 +10,7 @@
     margin: auto;
 }
 
-.content__item {
-    /* width: 30%; */
+.icon__item {
     height: 215px;
     display: flex;
     flex-direction: column;
@@ -21,8 +19,9 @@
 }
 
 .item__text {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'SegoeUI';
     font-size: 27px;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -34,19 +33,17 @@
 }
 
 @media (max-width: 420px) {
-    .content__item {
-        height: 100%;
-    }
-    .icon_area {
-        padding: 20px;
-        height: 100%;
-    }
-    .content__item {
+    .icon__item {
+        /* height: 100%; */
         width: 30%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 10px;
+    }
+    .icon_area {
+        height: 100%;
     }
     .icon_area__content {
         width: 100%
@@ -57,28 +54,25 @@
 }
 
 @media (max-width: 770px) {
-    .content__item {
-        height: 100%;
+    .icon__item {
+        /* height: 100%; */
         width: 30%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 5px;
     }
-    .icon_area {
-        padding: 20px;
-        height: 100%;
-    }
-    .icon_area__content {
+    /* .icon_area__content {
         width: 100%
-    }
+    } */
     .item__text {
         font-size: 20px;
     }
 }
 
 @media(min-width: 1000px)AND ( max-width: 1025px) {
-    .icon_area__content {
+    /* .icon_area__content {
         width: auto;
-    }
+    } */
 }

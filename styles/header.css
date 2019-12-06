@@ -6,75 +6,10 @@
        padding: 20px;
    }
    
-   .logo-nav {
-       display: flex;
-       padding-top: 40px;
-   }
-   
-   .logo-image {
-       float: left;
-       height: 83px;
-       width: 83px;
-       background-size: 100%;
-       background-image: url(../static/images/logo2.png), url(../static/images/logo.png);
-       background-repeat: no-repeat;
-       background-position: center;
-   }
-   
    .container {
        margin: auto;
        box-sizing: content-box;
        width: 1020px;
-   }
-   
-   .logo-text {
-       font-family: 'LucidaSans';
-       font-style: italic;
-       color: white;
-       font-size: 41px;
-       height: 2em;
-       line-height: 2em;
-       text-transform: uppercase;
-   }
-   
-   .nav {
-       margin-top: 20px;
-       box-shadow: -4px -4px rgba(128, 111, 36, 2.5), -8px -8px rgba(151, 131, 22, 0.5);
-       display: flex;
-       margin-left: auto;
-       width: auto;
-       height: 40px;
-       background-color: #f5c506;
-   }
-   
-   .menu__item {
-       border: 1px rgba(128, 111, 36, 2.5) solid;
-   }
-   
-   .nav-menu {
-       display: flex;
-   }
-   
-   .main-nav__element p:hover {
-       color: white;
-       cursor: pointer;
-   }
-   
-   .banner {
-       display: flex;
-       padding-top: 20px;
-   }
-   
-   .content__logo:hover {
-       cursor: pointer;
-   }
-   
-   .nav__item {
-       margin-left: 10px;
-       font-family: 'SegoeWp';
-       font-size: 15px;
-       text-transform: uppercase;
-       text-align: center;
    }
    
    A:link {
@@ -94,36 +29,7 @@
        color: white;
    }
    
-   .slogan__title {
-       text-transform: uppercase;
-       color: #f5c506;
-       text-align: center;
-       font-family: 'Asap';
-       font-size: 63px;
-       display: block;
-   }
-   
-   .slogan__subtitle {
-       text-transform: uppercase;
-       text-align: center;
-       font-family: 'Asap';
-       color: white;
-       font-size: 63px;
-       display: block;
-   }
-   
-   .banner__slogan {
-       text-align: center;
-       padding: 50px 0 0 100px;
-   }
-   
-   .subtext {
-       font-family: 'LaoUI';
-       font-size: 13px;
-       text-transform: uppercase;
-   }
-   
-   @media (max-width: 420px) {
+   @media (max-width: 500px) {
        .header {
            min-height: auto;
            padding: 0%;
@@ -132,42 +38,9 @@
            width: 100%;
            height: auto;
        }
-       .content__main_nav {
-           box-shadow: none;
-           width: max-content;
-           margin: 0%;
-           width: auto;
-       }
-       .banner__slogan {
-           display: none;
-       }
-       .logo-image {
-           display: none;
-       }
-       .logo-menu {
-           background-color: #5b5b5b;
-           padding: 0%;
-       }
-       .logo-text {
-           font-size: 14px;
-       }
-       .subtext {
-           display: none;
-       }
-       .content__main_nav {
-           width: 100%;
-           box-shadow: none;
-           margin-top: 0%;
-       }
-       .main-nav__element p {
-           font-size: 13px;
-       }
-       .banner__slogan {
-           padding: 0%;
-       }
    }
    
-   @media(min-width: 420px)AND ( max-width: 770px) {
+   @media(min-width: 500px)AND ( max-width: 770px) {
        .header {
            min-height: auto;
            padding: 0%;
@@ -175,42 +48,6 @@
        .container {
            width: 100%;
            height: auto;
-       }
-       .content__main_nav {
-           box-shadow: none;
-           width: max-content;
-           margin: 0%;
-           width: auto;
-       }
-       .banner__slogan {
-           display: none;
-       }
-       .logo-image {
-           display: none;
-       }
-       .logo-menu {
-           background-color: #5b5b5b;
-           padding: 0%;
-       }
-       .logo-text {
-           font-size: 16px;
-       }
-       .subtext {
-           display: none;
-       }
-       .content__main-nav {
-           width: 100%;
-           box-shadow: none;
-           margin-top: 0%;
-       }
-       .main-nav__element p {
-           font-size: 13px;
-       }
-       .video-slogan {
-           padding: 0%;
-       }
-       .content__video video {
-           margin-left: 18.5%;
        }
    }
    

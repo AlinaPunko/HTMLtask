@@ -1,0 +1,57 @@
+.banner {
+    display: flex;
+    padding-top: 20px;
+}
+
+.slogan__title {
+    text-transform: uppercase;
+    color: #f5c506;
+    text-align: center;
+    font-family: 'Asap';
+    font-size: 63px;
+    display: block;
+}
+
+.slogan__subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Asap';
+    color: white;
+    font-size: 63px;
+    display: block;
+}
+
+.banner__slogan {
+    text-align: center;
+    padding: 50px 0 0 100px;
+}
+
+@media(max-width: 500px) {
+    .banner {
+        padding: 0px;
+    }
+    .banner__slogan {
+        display: none;
+    }
+    .banner__slogan {
+        padding: 0%;
+    }
+}
+
+@media(min-width:500px) AND (max-width: 770px) {
+    .banner {
+        padding: 0px;
+    }
+    .banner__slogan {
+        display: none;
+    }
+}
+
+@media(min-width:770px) AND (max-width: 1020px) {
+    .banner {
+        padding: 0px;
+    }
+    .banner__slogan {
+        display: none;
+    }
+}
