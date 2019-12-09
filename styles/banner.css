@@ -39,7 +39,7 @@
     }
 }
 
-@media(min-width:500px) AND (max-width: 770px) {
+@media(max-width: 770px) {
     .banner {
         padding: 0px;
     }
@@ -48,7 +48,7 @@
     }
 }
 
-@media(min-width:770px) AND (max-width: 1020px) {
+@media(max-width: 1020px) {
     .banner {
         padding: 0px;
     }

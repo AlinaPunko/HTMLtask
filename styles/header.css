@@ -8,25 +8,29 @@
    
    .container {
        margin: auto;
-       box-sizing: content-box;
        width: 1020px;
    }
    
-   A:link {
-       text-decoration: none;
-   }
-   
-   A:visited {
-       text-decoration: none;
-   }
-   
-   A:active {
-       text-decoration: none;
-   }
-   
-   A:hover {
+   a:link {
        text-decoration: none;
        color: white;
+       cursor: pointer;
+   }
+   
+   a:visited {
+       text-decoration: none;
+       color: white;
+   }
+   
+   a:active {
+       text-decoration: none;
+       color: white;
+   }
+   
+   a:hover {
+       text-decoration: none;
+       color: white;
+       cursor: pointer;
    }
    
    @media (max-width: 500px) {
@@ -40,7 +44,13 @@
        }
    }
    
-   @media(min-width: 500px)AND ( max-width: 770px) {
+   @media( max-width: 1025px) {
+       .container {
+           width: auto;
+       }
+   }
+   
+   @media( max-width: 770px) {
        .header {
            min-height: auto;
            padding: 0%;
@@ -48,11 +58,5 @@
        .container {
            width: 100%;
            height: auto;
-       }
-   }
-   
-   @media(min-width: 770px)AND ( max-width: 1025px) {
-       .container {
-           width: auto;
        }
    }
