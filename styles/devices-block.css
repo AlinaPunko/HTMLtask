@@ -49,11 +49,11 @@
     display: flex;
 }
 
-.devices-list ul {
+.devices__list {
     margin: auto;
 }
 
-.devices-list ul li {
+.devices__list-item {
     margin: 10px;
     list-style-type: none;
     color: #a9a9a7;
@@ -65,7 +65,7 @@
     -ms-hyphens: auto;
 }
 
-.devices-list ul li::before {
+.devices__list-item::before {
     content: "\2022";
     color: #f5c506;
     font-weight: bold;
@@ -89,9 +89,6 @@
     .devices_block {
         min-height: 0px;
     }
-    .devices-list ul {
-        display: none;
-    }
     .title {
         font-size: 30px;
     }
@@ -114,6 +111,9 @@
         margin-top: 60px;
         margin-right: 20px;
     }
+    .devices__list {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
@@ -129,7 +129,7 @@
     .title {
         font-size: 19px;
     }
-    .devices-list ul {
+    .devices__list {
         display: none;
     }
     .free {
