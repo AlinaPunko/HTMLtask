@@ -1,13 +1,8 @@
-.icon_area {
+.icon-area {
     margin: auto;
     height: 215px;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.icon_area__content {
-    width: 1020px;
-    margin: auto;
 }
 
 .icons {
@@ -47,11 +42,8 @@
         align-items: center;
         padding: 10px;
     }
-    .icon_area {
+    .icon-area {
         height: 100%;
-    }
-    .icon_area__content {
-        width: 100%
     }
     .item__text {
         font-size: 16px;

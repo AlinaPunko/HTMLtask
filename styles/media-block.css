@@ -1,0 +1,50 @@
+.media-block {
+    background-image: url("../static/images/Section2_background.png");
+    min-height: 510px;
+}
+
+.media-items {
+    display: flex;
+}
+
+.media-block .container .title {
+    text-align: left;
+    font-family: 'PTSans';
+    font-size: 37px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+button:active,
+button:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .media-block {
+        height: 100%;
+        background-color: white;
+    }
+    .media-block .container .title {
+        display: none;
+    }
+}
+
+@media( max-width: 770px) {
+    .media-block {
+        min-height: 0;
+    }
+    .media-items {
+        flex-flow: wrap;
+    }
+    .media-block .container .title {
+        display: none;
+    }
+}

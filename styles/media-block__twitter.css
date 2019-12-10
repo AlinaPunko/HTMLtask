@@ -1,0 +1,63 @@
+.twitter {
+    width: 33%;
+    margin-left: 38px;
+    background-color: orange;
+    align-content: center;
+    position: relative;
+}
+
+.twitter__image {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.twitter__add-button {
+    right: 5px;
+    bottom: 5px;
+    font-family: 'SegoeWP';
+    font-size: 29px;
+    color: white;
+    margin: auto;
+    position: absolute;
+}
+
+.twitter__number {
+    right: 5px;
+    top: 5px;
+    font-family: 'SegoeWP';
+    font-size: 29px;
+    color: white;
+    margin: auto;
+    position: absolute;
+}
+
+.twitter__add-button:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+@media (max-width: 430px) {
+    .twitter__number {
+        display: none;
+    }
+    .twitter {
+        width: 50%;
+    }
+}
+
+@media( max-width: 770px) {
+    .twitter__number {
+        display: none;
+    }
+    .twitter {
+        margin: 0px;
+        width: 50%;
+    }
+    .twitter__add-button {
+        display: none;
+    }
+}

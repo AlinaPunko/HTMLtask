@@ -7,10 +7,11 @@
     float: left;
     height: 83px;
     width: 83px;
-    background-size: 100%;
-    background-image: url(../static/images/logo2.png), url(../static/images/logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    position: relative;
+}
+
+.logo-image img {
+    position: absolute;
 }
 
 .logo-text {

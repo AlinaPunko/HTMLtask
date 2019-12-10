@@ -1,8 +1,11 @@
+@import "reset.css";
 @import "footer.css";
 @import "icon-area.css";
-@import "devices_block.css";
-@import "media_block.css";
-@import "reset.css";
+@import "devices-block.css";
+@import "media-block.css";
+@import "media-block__video.css";
+@import "media-block__twitter.css";
+@import "media-block__comment.css";
 @import "fonts.css";
 @import "header.css";
 @import "banner.css";

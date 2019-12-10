@@ -1,42 +1,37 @@
-        .footer {
-            background-color: #4c4c4c;
-            height: auto;
-        }
-        
-        .footer__content {
-            border-top: thin black;
-            align-content: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .footer__image {
-            margin-top: auto;
-            margin-bottom: auto;
-            background-image: url(../static/images/logo2.png), url(../static/images/logo.png);
-            height: 50px;
-            width: 50px;
-            background-size: 100%;
-            background-repeat: no-repeat;
-        }
-        
-        .footer__text {
-            justify-content: center;
-            align-content: center;
-            color: white;
-            font-style: italic;
-            font-family: 'PTSans';
-            font-size: 29px;
-        }
-        
-        @media(max-width:500px) {
-            .footer__text {
-                justify-content: center;
-                align-content: center;
-                color: white;
-                font-style: italic;
-                font-family: 'PTSans';
-                font-size: 15px;
-            }
-        }
+.footer {
+    background-color: #4c4c4c;
+    height: auto;
+}
+
+.logo-image--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__image--footer {
+    float: left;
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.logo__image--footer img {
+    position: absolute;
+}
+
+.footer__text {
+    color: white;
+    font-style: italic;
+    font-family: 'PTSans';
+    font-size: 29px;
+}
+
+@media(max-width:500px) {
+    .footer__text {
+        color: white;
+        font-style: italic;
+        font-family: 'PTSans';
+        font-size: 15px;
+    }
+}
