@@ -1,0 +1,38 @@
+.comment {
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'SegoeWP';
+    font-size: 29px;
+    min-height: 200px;
+    width: 33%;
+    background-color: orange;
+    color: white;
+    position: relative;
+}
+
+.comment__add-button {
+    right: 5px;
+    bottom: 5px;
+    position: absolute;
+    margin: auto;
+}
+
+.comment__add-button:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+@media (max-width: 430px) {
+    .comment {
+        font-size: 16px;
+    }
+}
+
+@media( max-width: 770px) {
+    .comment {
+        border-right: 1px white solid;
+        width: 50%;
+        height: auto;
+        margin: 0px;
+    }
+}

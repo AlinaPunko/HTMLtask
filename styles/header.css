@@ -1,0 +1,61 @@
+.header {
+    background-image: url("../static/images/Header_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 565px;
+}
+
+.container {
+    margin: auto;
+    width: 1020px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .header {
+        min-height: auto;
+        padding: 0%;
+    }
+    .container {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media( max-width: 1025px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media( max-width: 770px) {
+    .header {
+        min-height: auto;
+        padding: 0%;
+    }
+    .container {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,143 @@
+.devices-block {
+    background-image: url("../static/images/list_block_background.png");
+    min-height: 495px;
+}
+
+.title {
+    padding: 22px;
+    color: #f5c506;
+    text-align: center;
+    font-family: 'PTSans';
+    font-size: 43px;
+    width: auto;
+    text-transform: uppercase;
+}
+
+.free {
+    display: flex;
+    font-weight: bold;
+    background: #f5c506;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    margin: 5px 5px;
+    font-size: 15px;
+    display: flex;
+    color: #fff;
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+    align-self: flex-start;
+    position: absolute;
+    top: -60px;
+    left: -60px;
+    font-family: 'PTSans';
+}
+
+.devices {
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.devices-list {
+    display: flex;
+}
+
+.devices__list {
+    margin: auto;
+}
+
+.devices__list-item {
+    margin: 10px;
+    list-style-type: none;
+    color: #a9a9a7;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.devices__list-item::before {
+    content: "\2022";
+    color: #f5c506;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.devices-images {
+    width: 100%;
+    display: flex;
+}
+
+.desktop {
+    position: relative;
+}
+
+.phone {
+    margin-bottom: -200%;
+}
+
+@media( max-width: 770px) {
+    .devices_block {
+        min-height: 0px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .devices-block {
+        height: 100%;
+    }
+    .devices-list {
+        margin: auto;
+        width: auto;
+    }
+    .devices-images {
+        width: 100%;
+    }
+    .free {
+        padding: 0px;
+    }
+    .devices {
+        justify-content: space-around;
+        margin-left: 60px;
+        margin-top: 60px;
+        margin-right: 20px;
+    }
+    .devices__list {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .devices {
+        justify-content: space-around;
+        margin-left: 20px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .devices-block {
+        min-height: 250px;
+    }
+    .title {
+        font-size: 19px;
+    }
+    .devices__list {
+        display: none;
+    }
+    .free {
+        top: -20px;
+        left: -20px;
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        margin: 0px;
+    }
+}

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Asap';
+    src: url('../styles/fonts/asap.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LucidaSans';
+    src: url('../styles/fonts/Lucida Sans Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('../styles/fonts/PTSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeWP';
+    src: url('../styles/fonts/Segoe WP.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('../styles/fonts/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LaoUI';
+    src: url('../styles/fonts/LaoUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

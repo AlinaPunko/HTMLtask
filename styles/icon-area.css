@@ -1,0 +1,65 @@
+.icon-area {
+    margin: auto;
+    height: 215px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.icon__item {
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.item__text {
+    font-family: 'SegoeUI';
+    font-size: 27px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.item__image {
+    height: 80px;
+    width: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 420px) {
+    .icon__item {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .icon-area {
+        height: 100%;
+    }
+    .item__text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 770px) {
+    .icon__item {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    .item__text {
+        font-size: 20px;
+    }
+}
